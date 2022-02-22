@@ -31,3 +31,18 @@
 
 en:
   hello: "Hello world"
+  show: Show
+  edit: Edit
+  destroy: Delete
+  newbook: 'New Book'
+  back: Back
+  activerecord:
+    models:
+      book: Books  #g
+
+    attributes:
+      book:
+        author: Auther  #g
+        memo: Memo  #g
+        picture: Picture  #g
+        title: Title  #g
