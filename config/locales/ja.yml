@@ -5,6 +5,10 @@ ja:
   destroy: 削除
   newbook: 新規登録
   back: 戻る
+  confirm: 削除してよろしいですか？
+  books:
+    index:
+      title: 本の一覧
   activerecord:
     errors:
       messages:

@@ -36,6 +36,7 @@ en:
   destroy: Delete
   newbook: 'New Book'
   back: Back
+  confirm: Are you sure?
   activerecord:
     models:
       book: Books  #g
