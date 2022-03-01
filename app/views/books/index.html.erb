@@ -5,7 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th><%= t '.title' %></th>
+      <th><%= Book.human_attribute_name(:title) %></th>
       <th><%= Book.human_attribute_name(:memo) %></th>
       <th><%= Book.human_attribute_name(:author) %></th>
       <th><%= Book.human_attribute_name(:picture) %></th>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to t(:newbook), new_book_path %>
+<%= link_to t('.newbook'), new_book_path %>
