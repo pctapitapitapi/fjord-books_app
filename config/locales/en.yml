@@ -31,3 +31,26 @@
 
 en:
   hello: "Hello world"
+  show: Show
+  edit: Edit
+  destroy: Delete
+  newbook: 'New Book'
+  back: Back
+  confirm: Are you sure?
+  books:
+    create:
+      success: 'Book was successfully created.'
+    update:
+      success: 'Book was successfully updated.'
+    destroy:
+      success: 'Book was successfully destroyed.'
+  activerecord:
+    models:
+      book: Books  #g
+
+    attributes:
+      book:
+        author: Auther  #g
+        memo: Memo  #g
+        picture: Picture  #g
+        title: Title  #g
