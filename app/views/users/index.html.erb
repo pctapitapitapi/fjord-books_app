@@ -1,2 +1,24 @@
-<h1>Users#index</h1>
-<p>Find me in app/views/users/index.html.erb</p>
+<h1>ユーザー一覧</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>nickname</th>
+      <th>自己紹介</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user[:nickname] %></td>
+        <td><%= user[:personal_introduction] %></td>
+      <tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= paginate @users %>
+
+<%= link_to '本の一覧', books_path %>
+<%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
